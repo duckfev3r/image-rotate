@@ -14,7 +14,7 @@ var to_rotate = new image_data_service_1.ImageData(dimensions.width, dimensions.
 to_rotate.data.set(buf);
 var rotationService = new rotation_service_1.RotationService();
 var start = Date.now();
-var rotated = rotationService.rotate(to_rotate, 360);
+var rotated = rotationService.rotate(to_rotate, 90);
 var end = Date.now();
 console.log("__________________________________________________");
 console.log("Rotate Operation Completed in " + (end - start) + " ms");

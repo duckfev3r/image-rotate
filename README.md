@@ -13,7 +13,8 @@ To run these demos, make sure node is installed, see `https://nodejs.org/en/down
 ##### To run in node:
 
 1. `cd node_app`
-2. `node build/app.js`
+2. `npm install`
+3. `node build/app.js`
 
 ### Task
 
